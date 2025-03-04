@@ -1,0 +1,80 @@
+body {
+    font-family: 'Open Sans', sans-serif;    margin: 0;
+    padding: 0;
+    background-color: #EAE3D2; /* Light earth tone */
+    color: #333; /* Dark text color for contrast */
+  }
+  
+  header {
+    background-color: #8B7765; /* Earth tone for header */
+    padding: 1.5rem;
+    text-align: center;
+    color: #FFF; /* White text for header */
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Keep links in a row */
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 1.5rem;
+  }
+  
+  nav ul li a {
+    color: #FFF; /* White text for links */
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  nav ul li a:hover {
+    color: #FFD700; /* Gold color on hover */
+  }
+  
+  section {
+    padding: 2rem;
+    margin: 1rem 0;
+    border: 5px solid #8B7765; /* Thicker border with footer color */
+    border-radius: 5px;
+    background-color: #FFF; /* White background for sections */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    color: #6B4226; /* Earth tone for section headings */
+  }
+  
+  section:nth-child(odd) {
+    background-color: #F5F0E6; /* Slightly different background for odd sections */
+  }
+  
+  section p {
+    font-size: 1.1rem;
+  }
+  
+  section:hover {
+    transform: translateY(-10px); /* Slightly elevate the card */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow */
+  }
+  
+  footer {
+    background-color: #8B7765; /* Earth tone for footer */
+    color: #FFF; /* White text for footer */
+    text-align: center;
+    padding: 2rem; /* Increase padding for larger footer */
+    font-size: 1.2rem; /* Increase font size for larger footer text */
+    position: relative; /* Change to relative to avoid sticking */
+    width: 100%;
+  }
+  
